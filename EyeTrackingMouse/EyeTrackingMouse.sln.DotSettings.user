@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	
+	
+	
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="D:\UserData\Google Drive\dbPersonal\dbImportant\dbUni\dbSVN\dbFaPro16\04-Realisierung\EyeTrackingMouseV03\EyeTrackingMouse\packages\AForge.Controls.2.2.5\lib\AForge.Controls.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /&gt;&#xD;
+  &lt;Assembly Path="D:\UserData\Google Drive\dbPersonal\dbImportant\dbUni\dbSVN\dbFaPro16\04-Realisierung\EyeTrackingMouse\packages\Accord.Vision.3.0.2\lib\net45\Accord.Vision.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.Linq.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.Linq.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" /&gt;&#xD;
+  &lt;Assembly Path="D:\UserData\Google Drive\dbPersonal\dbImportant\dbUni\dbSVN\dbFaPro16\04-Realisierung\EyeTrackingMouse\packages\Accord.Imaging.3.0.2\lib\net45\Accord.Imaging.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Duamutef\Desktop\STUFF\Bildverarbeitung\EyeTrackingMouse\packages\Accord.3.0.2\lib\net45\Accord.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Duamutef\Desktop\STUFF\Bildverarbeitung\EyeTrackingMouse\packages\Accord.Controls.Imaging.3.0.2\lib\net45\Accord.Controls.Imaging.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Duamutef\Desktop\STUFF\Bildverarbeitung\EyeTrackingMouse\packages\Accord.Imaging.3.0.2\lib\net45\Accord.Imaging.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeTrackeringMouseV03", "EyeTrackeringMouseV03\EyeTrackeringMouseV03.csproj", "{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3} = {97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeTrackingMouseV03Lib", "EyeTrackingMouseV03Lib\EyeTrackingMouseV03Lib.csproj", "{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeTrackingServiceV03", "EyeTrackingServiceV03\EyeTrackingServiceV03.csproj", "{98CD7AD5-7261-4207-8CE4-998457BC0492}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "EyeTrackingInstallerV03", "EyeTrackingInstallerV03\EyeTrackingInstallerV03.isproj", "{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB} = {E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}
+		{98CD7AD5-7261-4207-8CE4-998457BC0492} = {98CD7AD5-7261-4207-8CE4-998457BC0492}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F3D397-D97D-4451-ACB3-1AF5FE5364AB}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{97A0FA3A-0B94-4E57-B73F-A81BF40FAFA3}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{98CD7AD5-7261-4207-8CE4-998457BC0492}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{98CD7AD5-7261-4207-8CE4-998457BC0492}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{98CD7AD5-7261-4207-8CE4-998457BC0492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CD7AD5-7261-4207-8CE4-998457BC0492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CD7AD5-7261-4207-8CE4-998457BC0492}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CD7AD5-7261-4207-8CE4-998457BC0492}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{98CD7AD5-7261-4207-8CE4-998457BC0492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CD7AD5-7261-4207-8CE4-998457BC0492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CD7AD5-7261-4207-8CE4-998457BC0492}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{98CD7AD5-7261-4207-8CE4-998457BC0492}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}.Debug|Any CPU.ActiveCfg = DVD-5
+		{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}.Debug|Any CPU.Build.0 = DVD-5
+		{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}.DVD-5|Any CPU.Build.0 = DVD-5
+		{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}.Release|Any CPU.ActiveCfg = SingleImage
+		{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}.Release|Any CPU.Build.0 = SingleImage
+		{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{084D6A6C-31D8-48BA-9A8F-5B608544FE2A}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
